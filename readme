@@ -1,9 +1,9 @@
 files:
-	mincover.py			solves the minimum vertex cover for a given graph in graphml format
+	mincover.py		solves the minimum vertex cover for a given graph in graphml format
 	functions.py		functions complementary for mincover.py
 	test_mincover.py	pytest test file
 	requirements.txt	required python libraries and versions used when validating
-	graphs				folder with several example graphs to check behavior
+	graphs			folder with several example graphs to check behavior
 	
 Available solvers are adiabatic (simulation), qaoa, classic. 
 See python mincover.py -h for more options
