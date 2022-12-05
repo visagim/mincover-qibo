@@ -1,0 +1,6 @@
+numpy==1.23.4
+qibo @ git+https://github.com/qiboteam/qibo@513d302ca20d01f49a6d9073198b7261a99e5dc5
+qibojit @ git+https://github.com/qiboteam/qibojit@552a18ab8f61fb5cfb33b3384e35ba8b496f03c8
+networkx==2.8.8
+matplotlib==3.6.2
+pytest==7.2.0
