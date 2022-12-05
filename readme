@@ -11,3 +11,9 @@ The classic solver is the min vertex cover solver from nx, which is not guarante
 
 For testing, it is recommended to use a small yet complex graph like graphs/dsatur.graphml.
 
+Demo commands:
+python src/mincover.py graphs/dsatur.graphml -m qaoa --plot True --depth 2
+python src/mincover.py graphs/dsatur.graphml --plot True -m classic #does not solve correctly
+python src/mincover.py graphs/10-0.2-16443081.graphml --plot True --mix bit-flip
+python src/mincover.py graphs/12-0.5-58903553.graphml --plot True --T 4 #does not solve correctly
+python src/mincover.py graphs/12-0.5-58903553.graphml --plot True --T 6
